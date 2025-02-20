@@ -44,6 +44,7 @@ struct newBlock{
     string[] comment;    // Array for multiple comments
 }
 
+//sorry I forgot to post yesterday );
 
 
 
