@@ -9,13 +9,12 @@ contract Lottery{
 uint256 lottery = uint256(block.timestamp % 1000);
  if (lottery == _number){
     return ("you won lottery", lottery);
-    
  }
  else{
     return ("better luck next time", lottery );
  }
  }
 } 
-
+/*problem is that the lottery number changes everytime we call the function so it is highly impossible to */
   
   
